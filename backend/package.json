@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "npm start": "node server.js"
+    "start": "nodemon server.js",
+    "npm start": "nodemon server.js"
   },
   "author": "Chandra M. Pandey",
   "license": "ISC",
