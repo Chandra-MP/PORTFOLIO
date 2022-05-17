@@ -1,0 +1,376 @@
+.body {
+  background-image: url(Assets/dotgrid.png);
+  background-color: #eeeeee;
+  text-align: center;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+/* font-family: 'Alegreya SC', serif;
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Tenor Sans', sans-serif; */
+/* LANDING PAGE  */
+#landingpage {
+  position: relative;
+  background-color: #222831;
+  color: #ffd369;
+  padding: 3% 15%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Assets/MyPhotoB&W.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 992px) {
+  #landingpage{
+    background-position: right;
+    padding: 10% 0;
+  }
+  .overview_container{
+    background-position: right;
+
+  }
+
+}
+
+@media only screen and (max-width: 576px){
+  #landingpage{
+    background-position: center;
+    padding: 33% 0;
+
+  }
+  .overview_container{
+    background-position: right;
+
+  }
+}
+
+/* #landingpage::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-image: url(../Images/MyPhotoB&W.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .75;
+  }
+} */
+
+.navbar-dark .navbar-brand {
+  color: #ffd369;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffd369;
+}
+.nav-link{
+
+}
+.navbar-nav .nav-link a {
+  color: #ffd369;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.navbar-toggler {
+  color: #ffd369;
+}
+
+.navbar-container {
+  background-color: transparent;
+  border: solid;
+  width: 100%;
+  position: relative;
+}
+
+.heading {
+  color: #ffd369;
+  font-family: 'Cormorant Unicase', serif;
+  text-align: center;
+  padding: 3% 15% 0;
+  position: relative;
+}
+
+.intro-container {
+  padding: 2.5% 15%;
+  margin: 12% 0;
+}
+
+.intro-container p {
+  margin: 0;
+}
+
+.nextsection {
+  color: #ffd369;
+  font-size: 1rem;
+  padding: 3% 0 1%;
+}
+
+.arrow-link {
+  color: inherit;
+  opacity: .2;
+}
+
+.arrow-link:hover {
+  color: #eeeeee;
+}
+
+/* ABOUT ME  */
+#about {
+  background-color: #222831;
+}
+
+.about_me {
+  padding: 11% 15%;
+  position: relative;
+  background-image: url(Assets/Background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)), url(Assets/Background.jpg);
+  /* background-image: url('../Images/dotgrid.png'); */
+  background-repeat: no-repeat;
+ background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color:   #eeeeee;
+}
+/* .about_me::before{
+  content:"";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background-image: url(../Images/aestheticLamp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .75;
+} */
+
+.about_me_heading{
+  position: relative;
+}
+.about_me_text{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+/* OVERVIEW */
+.overview_container {
+  padding: 11% 15%;
+  padding: relative;
+  background-color: #222831;
+  background-image: url(Assets/aestheticLamp.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)), url(Assets/aestheticLamp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:  #eeeeee;
+
+
+}
+
+.img_svg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.webdev_item {}
+
+.carousel-control-prev {
+  width: fit-content;
+  padding: 0;
+  position: absolute;
+  left: 0;
+
+}
+/* .carousel-control-prev-icon
+{
+position: absolute;
+right: 12rem;
+height: 44rem;
+color: #eeeeee;
+filter: none;
+} */
+
+.carousel-control-next {
+  width: fit-content;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+/* .carousel-control-next-icon
+{
+position: absolute;
+left: 12rem;
+height: 44rem;
+color: #eeeeee;
+filter: none;
+} */
+
+
+
+.carousel-indicators {
+  margin: 0;
+}
+
+.carousel-inner h3 {
+  margin: 0;
+  padding: 3rem;
+}
+
+.carousel-inner p {
+  margin: 0;
+  padding: 3rem;
+}
+
+/* CONTACT  */
+.contact_message {
+  position: relative;
+  top: 60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: #222831;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: #222831;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: #393e46;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffd369;
+}
+
+/* Style the container/contact section */
+.contact_container {
+  background-color: #222831;
+  background-image: url(Assets/monks.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)), url(Assets/monks.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: url('../Images/dotgrid.png'); */
+  color: #ffd369;
+  padding: 3% 15%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* FOOTER   */
+.footer_container {
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 3% 15% 1%;
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)), url(Assets/monks.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+.social_links{
+  text-align: center;
+  border: solid;
+  border-bottom: none;
+  border-color:  #ffd369;
+}
+
+.social_links img {
+  width: 5%;
+  margin: 1% 5%;
+
+}
+.mycontact{
+  text-align: center;
+  padding: 3% 0 0;
+  border: solid;
+
+  border-top: none;
+  color:  #ffd369;
+}
+.copyright {
+  padding: 10% 0 0;
+}
+
+.copyright img {
+  width: 1%;
+  margin: 0 1%;
+  color: #eeeeee;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: .5rem;
+  background-color:  #eeeeee;
+  color: #393e46;
+  text-align: center;
+  margin: 0;
+  /* border: solid; */
+  /* border-color:  #ffd369;
+  border-width: thin; */
+}
